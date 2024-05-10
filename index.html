@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Midterm WST</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Midterm WST <span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu()"></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+            <li><a href="#Hobbies" onclick="toggleMenu()">Hobbies</a></li>
+            <li><a href="#Language" onclick="toggleMenu()">My language</a></li>
+            <li><a href="#gallery" onclick="toggleMenu()">My Gallery</a></li>
+            <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Lieroy Robles</h2>
+            <p>"Embrace the mantra of an IT student: 'If the code works, let it thrive unchanged.' For in the realm of technology, stability often outshines constant tinkering."</p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titletext"><span>A</span>bout Me</h2>
+                <span class="placeholder col-12 placeholder-xs"></span>
+                <br><br>
+                <p>As a student enrolled in the Bachelor of Information and Technology program at National University Lipa, I am deeply immersed in the dynamic world of technology. My academic journey not only fuels my passion for computing but also opens doors to endless opportunities for growth and innovation. As an extroverted individual, I thrive in social settings, embracing new experiences and adventures with open arms. Beyond the confines of my studies, I find solace and excitement in pursuing my hobbies, which include delving into the intricacies of computers, exploring scenic landscapes through biking, and embarking on thrilling journeys to discover new destinations. Each day presents a canvas for learning, where I merge my academic pursuits with my zest for life, creating a harmonious balance between education and exploration. With each keystroke and pedal, I embrace the essence of discovery and the thrill of the unknown, shaping not only my academic path but also my personal growth and development. In the vibrant community of National University Lipa, I am surrounded by like-minded individuals who share my enthusiasm for technology and adventure, fostering a supportive environment for continuous learning and collaboration. Together, we navigate the ever-evolving landscape of information and technology, driven by curiosity and fueled by the boundless possibilities that lie ahead. Through dedication, perseverance, and a relentless pursuit of excellence, I am poised to make meaningful contributions to the field of technology and beyond, leaving an indelible mark on the world around me.</p>
+            </div>
+            <div class="col50">
+                <div class="imgbox"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="My Hobbies" id="Hobbies">
+        <div class="title">
+            <h3 class="titletext">My <span>H</span>obbies</h3>
+            <p>"The biggest adventure you can take is to live the life of your dreams."</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgbox">
+                    <img src="img/candle.jpg" alt="biking">
+                </div>
+                <div class="text">
+                    <h3>Biking:</h3>
+                    <p>Every weekend, I eagerly anticipate my biking adventures through scenic trails, where the rush of wind against my face invigorates my spirit and connects me with nature.</p>
+                </div>
+            </div>
+            <!-- Other hobby boxes -->
+        </div>
+    </section>
+
+    <section class="My Language" id="Language">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h3 class="titletext">Mukha<span>N</span>yak</h3>
+                    <img src="img/asleh.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/dids.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/hannah.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/jervin.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/jovert.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/kurt.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    </section>
+
+    <section class="My Gallery" id="gallery">
+        <h3 class="titletext1">My <span>G</span>allery</h3>
+        <div class="gallery">
+            <img src="img/church.jpg" alt="Image 1">
+            <img src="img/cebu.jpg" alt="Image 2">
+            <img src="img/candle.jpg" alt="Image 3">
+            <img src="img/cousin.jpg" alt="Image 4">
+            <img src="img/plain.jpg" alt="Image 5">
+            <img src="img/volleyball.jpg" alt="Image 6">
+            <!-- Other gallery images -->
+        </div>
+    </section>
+
+    <section class="Contact" id="Contact">
+        <h3 class="titletext2">My <span>C</span>ontact</h3>
+        <div class="contact">
+            <img src="img/cousin.jpg" alt="Logo 1">
+        </div>
+    </section>
+
+    <footer>
+        <h3>I am a Bully arf arf 2024 &COPY;</h3>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 80)
+        })
+
+        function toggleMenu() {
+            const navlinks = document.querySelector('.nav-links');
+            const menuToggle = document.querySelector('.menuToggle');
+            menuToggle.classList.toggle('active');
+            navlinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
